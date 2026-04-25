@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏛️ VerifiBond: RWA Governance Platform
 
-## Getting Started
+**VerifiBond** is a decentralized Governance and Management platform for Real World Assets (RWA). It provides a high-fidelity interface for institutional-grade property management, liquidity control, and community-led decision-making on the **Base** network.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Core Pillars
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. Decentralized Governance Hub
+The heart of the platform. VerifiBond empowers token holders to shape the future of the portfolio.
+* **Proposal Management:** Vote on critical protocol decisions, such as new property acquisitions or fee adjustments.
+* **Transparent Voting:** Real-time monitoring of community consensus and protocol direction.
+* **On-Chain Logic:** Designed for verifiable and tamper-proof governance participation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Strategic Manager Terminal
+A specialized environment for Protocol Administrators and Fund Managers.
+* **Supply Control:** Real-time **Minting** and **Burning** mechanisms to peg the $VBOND token supply to real-world asset value.
+* **Live Activity Log:** A terminal-style sidebar tracking every administrative action with precise timestamps.
+* **Liquidity Monitoring:** Total supply overview (currently at 1,025,000 VBOND) for professional oversight.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Investor Performance Portal
+A transparent "Oracle-fed" dashboard for asset backers.
+* **Yield Breakdown:** Real-time data feeds showing rental income (Berlin), capital appreciation (Monaco), and operational costs (Munich).
+* **Wealth Tracking:** Instant valuation of holdings with automated conversion from VBOND supply to USD value.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Technical Architecture
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Framework:** Next.js 14 (App Router)
+* **Web3 Stack:** Wagmi hooks & ConnectKit for seamless wallet abstraction.
+* **Network:** Optimized for **Base** (Ethereum L2) for low-cost governance participation.
+* **UI/UX:** Tailwind CSS with a custom "Dark Terminal" aesthetic for a professional financial feel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/BlockchainInes/VerifiBond-RWA-Governance-Platform.git](https://github.com/BlockchainInes/VerifiBond-RWA-Governance-Platform.git)
+   cd VerifiBond-RWA-Governance-Platform
