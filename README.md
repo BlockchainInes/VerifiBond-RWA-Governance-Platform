@@ -64,24 +64,6 @@ A transparent dashboard bridging off-chain data with on-chain transparency.
 
 
 
-## 🛠️ Technical Architecture
-
-
-
-* **Framework:** Next.js 14 (App Router)
-
-* **Web3 Stack:** Wagmi hooks, Viem, and ConnectKit for seamless wallet abstraction.
-
-* **Network:** Optimized for **Base L2** (Sepolia) for fast, low-cost transaction finality.
-
-* **UI/UX:** Tailwind CSS with a professional, data-centric "Dark Terminal" aesthetic.
-
-
-
----
-
-
-
 ## 🌟 Platform Walkthrough
 
 
