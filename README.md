@@ -1,36 +1,83 @@
 # 🏛️ VerifiBond: RWA Governance Platform
 
-**VerifiBond** is a decentralized Governance and Management platform for Real World Assets (RWA). It provides a high-fidelity interface for institutional-grade property management, liquidity control, and community-led decision-making on the **Base** network.
+**VerifiBond** is a decentralized Governance and Management platform for tokenized Real World Assets (RWA). It provides a high-fidelity interface for institutional-grade property management, liquidity control, and community-led decision-making on the **Base** network.
 
 ---
 
-## 🌟 Core Pillars
+## 🛡️ Smart Contract Verification
 
-### 1. Decentralized Governance Hub
-The heart of the platform. VerifiBond empowers token holders to shape the future of the portfolio.
-* **Proposal Management:** Vote on critical protocol decisions, such as new property acquisitions or fee adjustments.
-* **Transparent Voting:** Real-time monitoring of community consensus and protocol direction.
-* **On-Chain Logic:** Designed for verifiable and tamper-proof governance participation.
+For full protocol transparency, the VerifiBond core smart contract can be reviewed and interacted with directly on Etherscan (Sepolia):
 
-### 2. Strategic Manager Terminal
-A specialized environment for Protocol Administrators and Fund Managers.
-* **Supply Control:** Real-time **Minting** and **Burning** mechanisms to peg the $VBOND token supply to real-world asset value.
-* **Live Activity Log:** A terminal-style sidebar tracking every administrative action with precise timestamps.
-* **Liquidity Monitoring:** Total supply overview (currently at 1,025,000 VBOND) for professional oversight.
+### 💎 [View $VBOND Token Contract on Etherscan](https://sepolia.etherscan.io/address/0x17422e601c91a1678faa58dfc5f5381bf15c527e)
 
-### 3. Investor Performance Portal
-A transparent "Oracle-fed" dashboard for asset backers.
-* **Yield Breakdown:** Real-time data feeds showing rental income (Berlin), capital appreciation (Monaco), and operational costs (Munich).
-* **Wealth Tracking:** Instant valuation of holdings with automated conversion from VBOND supply to USD value.
+---
+
+## 🌟 Platform Walkthrough
+
+### 1. Connection & Authentication
+Access is secured via Web3 wallet integration. The platform detects the connection status to unlock specialized dashboards.
+
+![Connection Status](assets/CONNECTED.png)
+
+### 2. Main Terminal Overview
+The central hub for navigating between different protocol functions.
+
+![VerifiBond Terminal](assets/VerifiBond_Terminal.png)
+
+### 3. Investor Portal & Oracle Data
+Investors can track their portfolio value and view real-time yield data provided by our Oracle layer, covering assets in Berlin, Monaco, and Munich.
+
+![Investor Dashboard](assets/Investor_Terminal.png)
+
+### 4. Manager Terminal & Supply Control
+The command center for fund managers to oversee the 1,025,000 VBOND supply and execute protocol-level actions.
+
+![Manager Terminal](assets/Manager_Terminal.png)
+
+#### Mint & Burn Logic
+Managers can dynamically adjust the token supply based on real-world asset inflows and outflows.
+
+![Mint and Burn Interface](assets/Mint_Burn.png)
+
+---
+
+### 5. Decentralized Governance Hub
+Token holders can participate in the decision-making process by voting on active proposals.
+
+![Governance Proposals](assets/PROPOSAL.png)
+
+#### Proposal Management & Voting
+The platform tracks consensus for various strategic moves. Users can cast their votes directly on-chain.
+
+<p align="center">
+  <img src="assets/PROPOSAL_1.png" width="45%" />
+  <img src="assets/PROPOSAL_2.png" width="45%" />
+</p>
+<p align="center">
+  <img src="assets/PROPOSAL_3.png" width="45%" />
+  <img src="assets/VOTE.png" width="45%" />
+</p>
+
+#### Vote Submission
+Confirmation of the voting process and power calculation.
+
+![Vote Submitted](assets/VOTE_SUBMITTED.png)
+
+---
+
+### 6. Transaction Finality
+All governance and management actions are broadcast to the network for fast and cost-effective finality.
+
+![Transaction Confirmed](assets/TRANSACTION_CONFIRMED.png)
 
 ---
 
 ## 🛠️ Technical Architecture
 
 * **Framework:** Next.js 14 (App Router)
-* **Web3 Stack:** Wagmi hooks & ConnectKit for seamless wallet abstraction.
-* **Network:** Optimized for **Base** (Ethereum L2) for low-cost governance participation.
-* **UI/UX:** Tailwind CSS with a custom "Dark Terminal" aesthetic for a professional financial feel.
+* **Web3 Stack:** Wagmi hooks, Viem, and ConnectKit.
+* **Network:** Optimized for **Base L2** (Sepolia).
+* **UI/UX:** Tailwind CSS "Dark Terminal" aesthetic.
 
 ---
 
