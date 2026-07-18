@@ -184,17 +184,6 @@ All actions are broadcast to the Base L2 network for cost-effective finality.
 **Architecture:** Decentralized governance, Oracle-driven asset valuation, and RWA tokenization
 
 **UI/UX:** Tailwind CSS with a modern dark terminal-inspired interface
-## 🛠️ Technical Architecture
-
-
-
-* **Framework:** Next.js 14 (App Router)
-
-* **Web3 Stack:** Wagmi hooks, Viem, and ConnectKit.
-
-* **Network:** Optimized for **Base L2** (Sepolia).
-
-* **UI/UX:** Tailwind CSS "Dark Terminal" aesthetic.
 
 
 
