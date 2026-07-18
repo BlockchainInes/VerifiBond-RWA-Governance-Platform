@@ -1,5 +1,11 @@
 # 🏛️ VerifiBond: RWA Governance Platform
 
+# 🏛️ VerifiBond: RWA Governance Platform
+
+This project demonstrates an institutional-grade Real World Asset (RWA) tokenization and governance platform, combining Solidity smart contracts, a modern Next.js frontend, and Web3 technologies to manage tokenized assets through decentralized governance.
+
+VerifiBond is a decentralized governance and asset management platform for tokenized Real World Assets (RWAs). The platform bridges decentralized finance (DeFi) and institutional investment by providing secure governance, ERC-20 tokenization, Oracle-based asset valuation, and an intuitive management interface. It is designed as a proof-of-concept for institutional-grade blockchain applications.
+
 **This project demonstrates an institutional-grade governance platform for Real World Asset (RWA) tokenization, combining Solidity smart contracts with a modern Next.js frontend and Web3 integration.**
 
 **VerifiBond** is a decentralized Governance and Management platform for tokenized Real World Assets (RWA). It bridges the gap between decentralized finance (DeFi) and institutional real estate investments, providing a professional interface for property fund management and community-led decision-making on the **Base** network.
