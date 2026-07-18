@@ -169,7 +169,21 @@ All actions are broadcast to the Base L2 network for cost-effective finality.
 ---
 
 
+## 🛠️ Technical Architecture
 
+**Frontend:** Next.js 14 (App Router)
+
+**Blockchain:** Solidity 0.8.20, OpenZeppelin Contracts, ERC-20, ERC20Permit, ERC20Votes
+
+**Development Framework:** Foundry
+
+**Web3 Stack:** Wagmi, Viem, ConnectKit
+
+**Network:** Ethereum Sepolia Testnet (Smart Contracts) and Base ecosystem integration
+
+**Architecture:** Decentralized governance, Oracle-driven asset valuation, and RWA tokenization
+
+**UI/UX:** Tailwind CSS with a modern dark terminal-inspired interface
 ## 🛠️ Technical Architecture
 
 
